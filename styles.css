@@ -697,3 +697,142 @@ section h2 {
   max-width: 400px;
   margin: 2rem auto; /* 👈 centra todo el bloque */
 }
+
+
+.old-price {
+  text-decoration: line-through;
+  color: gray;
+  font-size: 0.9rem;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--color-principal);
+}
+
+.price span {
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.badge {
+  display: inline-block;
+  margin-top: 5px;
+  background: #ff4d4d;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+}
+
+
+
+
+
+/* ===== BOTONES ===== */
+.btn {
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background: #267a68;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* ===== CARDS ===== */
+.card {
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+/* ===== PRECIO DESTACADO ===== */
+.price {
+  transition: 0.3s;
+}
+
+.card:hover .price {
+  transform: scale(1.1);
+}
+
+/* ===== BADGE (OFERTA) ===== */
+.badge {
+  transition: 0.3s;
+}
+
+.card:hover .badge {
+  transform: scale(1.05);
+}
+
+/* ===== IMÁGENES HABITACIONES ===== */
+.room-slider {
+  overflow: hidden;
+}
+
+.room-slide {
+  transition: transform 0.5s ease;
+}
+
+.room-slider:hover .room-slide.active {
+  transform: scale(1.05);
+}
+
+/* ===== GALERÍA ===== */
+.gallery-grid img {
+  transition: 0.4s;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.07);
+}
+
+/* ===== NAV LINKS ===== */
+.nav-links a {
+  position: relative;
+  transition: 0.3s;
+}
+
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background: var(--color-manteca);
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+/* ===== WHATSAPP LATIDO ===== */
+.whatsapp {
+  transition: transform 0.3s;
+}
+
+.whatsapp:hover {
+  transform: scale(1.1);
+}
+
+/* ===== APARICIÓN SUAVE SCROLL ===== */
+.show {
+  animation: fadeUp 0.8s ease forwards;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
