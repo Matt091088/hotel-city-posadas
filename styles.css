@@ -757,7 +757,9 @@ section h2 {
 }
 
 .card:hover .price {
-  transform: scale(1.1);
+  transform: translateY(-2px);
+  color: #1f6f5f;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.2);
 }
 
 /* ===== BADGE (OFERTA) ===== */
@@ -835,4 +837,26 @@ section h2 {
     opacity: 1;
     transform: translateY(0);
   }
+}
+.card {
+  overflow: visible; /* 👈 esto arregla el corte */
+}
+
+.reserva-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 2rem auto;
+}
+
+.reserva-form input,
+.reserva-form select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.reserva-form button {
+  margin-top: 10px;
 }
