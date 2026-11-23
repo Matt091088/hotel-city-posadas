@@ -29,9 +29,14 @@ The website provides visitors with information about the hotel, its rooms, servi
 
 ## 🛠️ Technologies
 
-- HTML
-- CSS
+## 🛠️ Technologies
+
+- HTML5
+- CSS3
 - JavaScript
+- Google Maps Embed
+- Font Awesome
+- Google Fonts
 
 ## 🌐 Live Demo
 
