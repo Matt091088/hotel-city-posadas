@@ -22,12 +22,11 @@ The website provides visitors with information about the hotel, its rooms, servi
 - Scroll-based animations
 - Dynamic header on scroll
 - Automatic footer year update
+- Responsive navigation and adaptive gallery layouts
 
 ## 📸 Preview
 
 ![Hotel City - Homepage](hotel-city-home.png)
-
-## 🛠️ Technologies
 
 ## 🛠️ Technologies
 
@@ -36,7 +35,7 @@ The website provides visitors with information about the hotel, its rooms, servi
 - JavaScript
 - Google Maps Embed
 - Font Awesome
-- Google Fonts
+- Google Fonts (Poppins)
 
 ## 🌐 Live Demo
 
