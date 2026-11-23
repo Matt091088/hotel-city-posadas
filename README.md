@@ -10,16 +10,18 @@ The website provides visitors with information about the hotel, its rooms, servi
 
 ## ✨ Features
 
-- Hotel presentation with an image slider
+- Hotel presentation with an automatic image slider
 - Four room categories with prices and photo galleries
-- General photo gallery
+- Individual room image carousels
+- General photo gallery with image lightbox
 - Hotel services information
 - Integrated Google Maps location
-- Reservation inquiry form
-- Direct WhatsApp contact and reservation links
-- Interactive navigation menu
-- Image lightbox
-- Responsive design
+- Reservation inquiry form with WhatsApp integration
+- Reservation date validation
+- Mobile navigation menu
+- Scroll-based animations
+- Dynamic header on scroll
+- Automatic footer year update
 
 ## 📸 Preview
 
