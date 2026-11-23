@@ -4,7 +4,20 @@ A website developed for Hotel City, a hotel located in Posadas, Misiones, Argent
 
 ## 🏨 About the Project
 
-This project is a website created to present the hotel and provide visitors with information about its services and accommodation.
+Hotel City is a website developed to present the hotel and its services in Posadas, Misiones, Argentina.
+
+The website provides visitors with information about the hotel and offers a simple way to get in touch directly.
+
+## ✨ Features
+
+- Hotel information and presentation
+- Direct WhatsApp contact button
+- Responsive website design
+- Easy navigation
+
+## 📸 Preview
+
+![Hotel City - Homepage](hotel-city-home.png)
 
 ## 🛠️ Technologies
 
